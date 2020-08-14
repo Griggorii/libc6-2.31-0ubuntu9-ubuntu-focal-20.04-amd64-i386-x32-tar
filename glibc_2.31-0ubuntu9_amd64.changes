@@ -1,0 +1,103 @@
+Format: 1.8
+Date: Tue, 14 Apr 2020 21:26:04 +0200
+Source: glibc
+Binary: glibc-doc glibc-source libc-bin libc-dev-bin libc6 libc6-dbg libc6-dev libc6-dev-i386 libc6-dev-x32 libc6-i386 libc6-pic libc6-udeb libc6-x32 locales locales-all nscd
+Architecture: all amd64
+Version: 2.31-0ubuntu9
+Distribution: focal
+Urgency: medium
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Balint Reczey <rbalint@ubuntu.com>
+Description:
+ glibc-doc  - GNU C Library: Documentation
+ glibc-source - GNU C Library: sources
+ libc-bin   - GNU C Library: Binaries
+ libc-dev-bin - GNU C Library: Development binaries
+ libc6      - GNU C Library: Shared libraries
+ libc6-dbg  - GNU C Library: detached debugging symbols
+ libc6-dev  - GNU C Library: Development Libraries and Header Files
+ libc6-dev-i386 - GNU C Library: 32-bit development libraries for AMD64
+ libc6-dev-x32 - GNU C Library: X32 ABI Development Libraries for AMD64
+ libc6-i386 - GNU C Library: 32-bit shared libraries for AMD64
+ libc6-pic  - GNU C Library: PIC archive library
+ libc6-udeb - GNU C Library: Shared libraries - udeb (udeb)
+ libc6-x32  - GNU C Library: X32 ABI Shared libraries for AMD64
+ locales    - GNU C Library: National Language (locale) data [support]
+ locales-all - GNU C Library: Precompiled locale data
+ nscd       - GNU C Library: Name Service Cache Daemon
+Changes:
+ glibc (2.31-0ubuntu9) focal; urgency=medium
+ .
+   * Ship arm64 variant with LSE support in libc6-lse
+   * debian/testsuite-xfail-debian.mk: Mark as XFAIL malloc/tst-mxfast
+     and nptl/tst-mutex10 to fix riscv64 FTBFS.
+Checksums-Sha1:
+ 6388a9fcac214babcca1361cfc204b8df7921225 3191984 glibc-doc_2.31-0ubuntu9_all.deb
+ 7c16ae3448c78986f497fac1812b8a96f6ab4d95 18445476 glibc-source_2.31-0ubuntu9_all.deb
+ acb14ea8c0bdd9c937c7bc3a725aa7f4f883def0 14087 glibc_2.31-0ubuntu9_amd64.buildinfo
+ 81956d352fea6b19cebe69b44679c6b3b0ce24f4 1936744 libc-bin-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 1c3cb8db90ab22f394dcd5376d891e3332207288 844700 libc-bin_2.31-0ubuntu9_amd64.deb
+ ea93c3aeb026306039b3c7ce51de665ae7beb3ee 147396 libc-dev-bin-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ b4ed5ed2b8d9ff578713bcd17079442c61c21f09 298184 libc-dev-bin_2.31-0ubuntu9_amd64.deb
+ 89e8ce894e13899dd843bd4e00832f092843cb02 4890296 libc6-dbg_2.31-0ubuntu9_amd64.deb
+ 5f98135bc7f8a8a24f59d050570fa44a9ca339fe 1900744 libc6-dev-i386_2.31-0ubuntu9_amd64.deb
+ 9d30cfa1b28e898a7e0738efc824bbc8ef47694c 1994220 libc6-dev-x32_2.31-0ubuntu9_amd64.deb
+ f823e4657bfdefe9f116e50fc81772ca4c42510a 2508752 libc6-dev_2.31-0ubuntu9_amd64.deb
+ 213018af77d16aaa50abbdb5ebc251060e41db58 6528124 libc6-i386-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 467fd62e1c56fb51fbcacf91cdd7ca9825252d6b 2870256 libc6-i386_2.31-0ubuntu9_amd64.deb
+ af3afebdc389e346aac65a0a7fc9654cbfa2e37b 1791584 libc6-pic_2.31-0ubuntu9_amd64.deb
+ 6464f8cda2882ea55ad7c93c6741b540218174f0 1343456 libc6-udeb_2.31-0ubuntu9_amd64.udeb
+ 508f35b8cb94f63ccb0ff8b5dec1fdb0b4d5b1aa 6894588 libc6-x32-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 3efb442925eb78d0463e107f4d684c228481cafc 2934980 libc6-x32_2.31-0ubuntu9_amd64.deb
+ 2aadcd537a63a471510b5896a0b4fa9884710d76 2936428 libc6_2.31-0ubuntu9_amd64.deb
+ 9b49c63e8aa4a671e4981cdc408d2b8d530a25ab 10837692 locales-all_2.31-0ubuntu9_amd64.deb
+ ca90428eecab26303f08dec995bc406d3e25165d 4093448 locales_2.31-0ubuntu9_all.deb
+ e6b8a8c714aebed5e26903c97e397a86e298acc8 241688 nscd-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ b7af0ad6d5a62b20ec78911b5724f81685148635 301760 nscd_2.31-0ubuntu9_amd64.deb
+Checksums-Sha256:
+ 4b50501cca88ff772e14f4bdc78365d4a044a6f413c79aedfe474f0eda395f3b 3191984 glibc-doc_2.31-0ubuntu9_all.deb
+ f80e89ac66cad0baecaf0510b7f2868d118227010dd53412ebd2f71f1690fc93 18445476 glibc-source_2.31-0ubuntu9_all.deb
+ 3593b555ca441f80ded19621c90a9d6db51bbca0b8d5d9f8a8a7f4e2e8e05892 14087 glibc_2.31-0ubuntu9_amd64.buildinfo
+ da95523af42755e7a432a76a2efa481de1c4043d9eb0f5507730eb10e19bb8d3 1936744 libc-bin-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 5491a0231a1ebc1690abb2781306bbdf6f3f6a244e9b8171a8cfc41ed534b4ad 844700 libc-bin_2.31-0ubuntu9_amd64.deb
+ c58febf578351ec3fa5d97c24876462c5c164018579cf37372ff7f82415cccd2 147396 libc-dev-bin-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ e6d1e5a42f279949a5cd6a7ded0e2ca3d8bba1f83c19ea82df0bd02e2181f405 298184 libc-dev-bin_2.31-0ubuntu9_amd64.deb
+ 6859716c4c35c9fc5d7304b89b3c50413baad2e9b56795e4f240b42f991cad37 4890296 libc6-dbg_2.31-0ubuntu9_amd64.deb
+ 73bc770ab8707ae0bca3ce339e255d5ef009083bba0c01ba62df163c79841b2c 1900744 libc6-dev-i386_2.31-0ubuntu9_amd64.deb
+ da09f0d1b8a38f4c37f96cfe482a1c5ef25c2adc531530b377ae5020c140c491 1994220 libc6-dev-x32_2.31-0ubuntu9_amd64.deb
+ a090c42ea17ccc3023363802a038ae63e3cb4893243a3ceb27a4e63343cdf5f4 2508752 libc6-dev_2.31-0ubuntu9_amd64.deb
+ 593896b34088d13e74076b7c872daef4bfac9cd592d954e196fdfd7c6f58d9d4 6528124 libc6-i386-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ f0b0795b7ceb4d8537b74517e4edce1334a68f18632fb7529d90f3690566f689 2870256 libc6-i386_2.31-0ubuntu9_amd64.deb
+ 38bb14f9b6ed301e9854f23bd3e88a2d518ef49687afc106bebd4b19f24ea16f 1791584 libc6-pic_2.31-0ubuntu9_amd64.deb
+ 312ee946d2ef8bddb52baaab9a740c873af1a5ba7bed1d65c50692d6ce7c05e0 1343456 libc6-udeb_2.31-0ubuntu9_amd64.udeb
+ d9e1a88ebdb03bc7cf5bc96389fdee4ebe92bc53b23d519c30a04aff9d4cea20 6894588 libc6-x32-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 57469a903457f93020db3f5802a45c6b2ebf85c1deb236b77df87846d8610298 2934980 libc6-x32_2.31-0ubuntu9_amd64.deb
+ 7a9309c4b38982d71f2b58f03f1a896bd15b10ce3bd87e84c9a3ea954720f86c 2936428 libc6_2.31-0ubuntu9_amd64.deb
+ 9062015bf59c6178d988178914f29c564903556de613b0d76b07b709154d5999 10837692 locales-all_2.31-0ubuntu9_amd64.deb
+ 78ca6bcef4b0660d3b253312adbc3298dc7fc39079778a3488b1b87270b3ae45 4093448 locales_2.31-0ubuntu9_all.deb
+ 0aefd6a3733c0a7b427edbc8fd1cecbb9c3bf813a20e81a3c09e4d66039535c2 241688 nscd-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 5fe04ed81ddaa8a7b4e8789f89c24301bd6eaa81689741b30feba061ae36f648 301760 nscd_2.31-0ubuntu9_amd64.deb
+Files:
+ 0e3e3087eeb72de83223dce1fd28ab9f 3191984 doc optional glibc-doc_2.31-0ubuntu9_all.deb
+ 3050c8b95a1388c7d99de2adbb3cf99c 18445476 devel optional glibc-source_2.31-0ubuntu9_all.deb
+ fc4d66a13ef8e0078bab1796dde86c85 14087 libs required glibc_2.31-0ubuntu9_amd64.buildinfo
+ 6d003140588732d70c1323afba7d3235 1936744 debug optional libc-bin-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 355340f50a12672e7496df96e5915341 844700 libs required libc-bin_2.31-0ubuntu9_amd64.deb
+ 0f442bb56af3e83bafaa284ebb52572c 147396 debug optional libc-dev-bin-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 97b47bd0f21e040cdb5af6d4003515e2 298184 libdevel optional libc-dev-bin_2.31-0ubuntu9_amd64.deb
+ f13bd413a04cde5c6a8f07c09d59b8a0 4890296 debug optional libc6-dbg_2.31-0ubuntu9_amd64.deb
+ 18ab89fe03fa1901c80c54cad2ada84c 1900744 libdevel optional libc6-dev-i386_2.31-0ubuntu9_amd64.deb
+ 934d954ff1cf7d83fd221ceb5437120d 1994220 libdevel optional libc6-dev-x32_2.31-0ubuntu9_amd64.deb
+ 8db00429687da994527746c2a72dc8e9 2508752 libdevel optional libc6-dev_2.31-0ubuntu9_amd64.deb
+ c19196807b68560169091229df928956 6528124 debug optional libc6-i386-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ c7bdaf4c397b272eaffc9473321f11ae 2870256 libs optional libc6-i386_2.31-0ubuntu9_amd64.deb
+ 6c9162295c40f3d3f91df6064f477407 1791584 libdevel optional libc6-pic_2.31-0ubuntu9_amd64.deb
+ f13ed44e65b1f4621dbf9747dc129aa1 1343456 debian-installer optional libc6-udeb_2.31-0ubuntu9_amd64.udeb
+ a7378de151b3f34c989aa01d7cd9e7b9 6894588 debug optional libc6-x32-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ 87b9e80c7dea70014fc4f6315013d2f0 2934980 libs optional libc6-x32_2.31-0ubuntu9_amd64.deb
+ 32bb6aa63ac7477cf5f421221719facd 2936428 libs optional libc6_2.31-0ubuntu9_amd64.deb
+ e6d95fa643ecf56e384695bc1b7e1b9b 10837692 localization optional locales-all_2.31-0ubuntu9_amd64.deb
+ e38788754d5082ddb27d073d03eac530 4093448 localization standard locales_2.31-0ubuntu9_all.deb
+ bc8c976d4b8da1fb070b9e2a1b42170b 241688 debug optional nscd-dbgsym_2.31-0ubuntu9_amd64.ddeb
+ aad4e46303751f1f88f7d6f1d00a40de 301760 admin optional nscd_2.31-0ubuntu9_amd64.deb
+Original-Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
