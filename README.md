@@ -1,8 +1,8 @@
 # libc6-2.31-0ubuntu9-ubuntu-focal-20.04-i386-x32-amd64.amd64.deb
 libc-2.31 , libc6-2.31 , i386 , x32 , amd64 , deb package
 
-Wayland interface adaptation not freeze perfomance. Delete ISOC2X , C2X problem chromium browsers https://github.com/Griggorii/Linux_OS20.04_V3_X64_By_Griggorii.iso_ubuntu_focal_fossa-linux-image-unsigned-5.6.0-1020-oem/blob/master/18.10_OS8.0/Readme.md че бы не придумывали я считаю это лишним , а когда лепят что то лишнее значит за это платят рекламодатели и обходят реальных создателей кто что знает не встройка ли это рекламы или ещё что либо https://en.wikipedia.org/wiki/C2x просто это и без этого работает.
+Wayland interface adaptation not freeze perfomance. Delete ISOC2X , C2X problem chromium browsers https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem fast wayland rebuild
 
 Данный пакет был пере билден и получен частично всякими экспериментами была подмена инклюдов в папке для них в итоге пакет вылечивает ваиланд от фризов т.е замерании через определённые несколько миинут или секунд особенно когда это касалось браузеров в указанной оконном окружении.
 
-Video driver: https://github.com/Griggorii/mesa-20.0.4_V15-libdrm_ubuntu-19.04-20.04-20.10_X86_64_full_stack_graphics
+Video driver license readme: https://github.com/Griggorii/Xorg_1.28-Mesa_21.0.3_Ubuntu_20.04
