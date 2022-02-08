@@ -1,7 +1,7 @@
 # libc6-2.31-0ubuntu9-ubuntu-focal-20.04-i386-x32-amd64
 libc-2.31 , libc6-2.31 , i386 , x32 , amd64 , deb package
 
-                           Ubuntu 20.04 shell fast upgrade 08.02.2022 master builder griggorii
+                           Ubuntu 20.04 shell fast upgrade libc6 08.02.2022 master builder griggorii
 
 Wayland interface adaptation https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem fast wayland rebuild
 
