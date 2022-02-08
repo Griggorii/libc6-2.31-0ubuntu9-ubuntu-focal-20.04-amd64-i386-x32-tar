@@ -1,4 +1,4 @@
-# libc6-2.31-0ubuntu9-ubuntu-focal-20.04-i386-x32-amd64.amd64.deb
+# libc6-2.31-0ubuntu9-ubuntu-focal-20.04-i386-x32-amd64
 libc-2.31 , libc6-2.31 , i386 , x32 , amd64 , deb package
 
 Wayland interface adaptation not freeze perfomance. Delete ISOC2X , C2X problem chromium browsers https://github.com/Griggorii/Ubuntu-20.04.2-desktop-amd64_By_Griggorii_linux-image-kernel-5.6.0-oem fast wayland rebuild
